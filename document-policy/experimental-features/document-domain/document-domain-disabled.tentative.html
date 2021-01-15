@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+<body>
+  <script src="/resources/testharness.js"></script>
+  <script src="/resources/testharnessreport.js"></script>
+  <script>
+    test(() => {
+      assert_throws_dom("SecurityError", () => document.domain = document.domain);
+    }, "document.domain should be disabled.");
+  </script>
+</body>
+
