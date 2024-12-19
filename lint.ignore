@@ -123,6 +123,7 @@ CONSOLE: webaudio/resources/audit.js:41
 
 # Intentional use of console.*
 CONSOLE: infrastructure/webdriver/bidi/subscription.html
+CONSOLE: infrastructure/webdriver/bidi/subscription.window.js
 
 # use of console in a public library - annotation-model ensures
 # it is not actually used
@@ -283,7 +284,7 @@ SET TIMEOUT: shadow-dom/Document-prototype-currentScript.html
 SET TIMEOUT: shadow-dom/scroll-to-the-fragment-in-shadow-tree.html
 SET TIMEOUT: shadow-dom/slotchange-event.html
 SET TIMEOUT: trusted-types/block-string-assignment-to-DOMWindowTimers-setTimeout-setInterval.html
-SET TIMEOUT: trusted-types/DOMWindowTimers-setTimeout-setInterval.html
+SET TIMEOUT: trusted-types/support/DOMWindowTimers-setTimeout-setInterval.js
 SET TIMEOUT: user-timing/*
 SET TIMEOUT: web-animations/crashtests/reparent-animating-element-002.html
 SET TIMEOUT: web-animations/timing-model/animations/*
